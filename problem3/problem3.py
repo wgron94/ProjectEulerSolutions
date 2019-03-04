@@ -17,7 +17,7 @@ while i < max_prime_factor:
         break # At this point we have reached the end of the factorization
     while value % i == 0:
         value = value / i
-    i += 2 # Can add by 2 to only check odd numbers because we removed all factors of 2 alredy
+    i += 2 # Can add by 2 to only check odd numbers because we removed all factors of 2 already
 end = timer()
 
 print( f"The largest prime factor of 600851475143 is {i}" )
