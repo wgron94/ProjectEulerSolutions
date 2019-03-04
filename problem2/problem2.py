@@ -16,4 +16,4 @@ while fib_value[2] < max_value:
     fib_value[2] = next_fib_num
     print( f"Current Fibonacci values: {fib_value[0]}, {fib_value[1]}, {fib_value[2]}" )
 
-print( f"The sum of even valued Fibonacci numbers less than 4E6 is {even_fib_sum}" );
+print( f"The sum of even valued Fibonacci numbers less than 4E6 is {even_fib_sum}" )
